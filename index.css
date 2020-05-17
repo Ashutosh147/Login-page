@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Pangolin&display=swap');
+.container{
+   
+    color: white;
+    position: absolute;
+    top: 17%;
+    left: 38%;
+    font-family: 'Pangolin', cursive;
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid purple;
+    margin: 28px 10px;
+    
+}
+.box i{
+    width: 10%;
+    text-align: center;
+    
+    
+
+}
+.box input{
+    width: 75%;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 4px 10px;
+    font-size: 20px;
+    background: none;
+    font-family: 'Balsamiq Sans', cursive;
+font-family: 'Pangolin', cursive;
+  
+
+}
+.btn{
+    cursor: pointer;
+    outline:none;
+    width: 25%;
+    margin: 10px 0px;
+    padding: 6px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    font-size: 17px;
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    color: purple;
+    background-color: white;
+    opacity: 0.4;
+}
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container h1{
+    font-size: 2.7rem;
+    border-bottom: 5px solid purple;
+    margin-bottom: 30px;
+    padding: 13px;
+    display: inline-block;
+}
